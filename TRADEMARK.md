@@ -1,6 +1,6 @@
 # Trademark Notice
 
-The names **Codex**, **Gloss**, **Paperhat**, and **Paperhat Workshop**, along with any associated logos, are trademarks of Paperhat, Limited.
+The names **Codex**, **Gloss**, **Paperhat**, and **Paperhat Lexis**, along with any associated logos, are trademarks of Paperhat, Limited.
 
 This repository is proprietary. Use of its contents does **not** grant permission to use the trademarks.
 

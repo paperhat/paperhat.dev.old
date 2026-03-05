@@ -4,12 +4,12 @@ on:
   push:
     paths:
       - "notes/design/**"
-      - "notes/workshop/design/**"
+      - "notes/lexis/design/**"
       - ".github/workflows/ontology-conformance.yml"
   pull_request:
     paths:
       - "notes/design/**"
-      - "notes/workshop/design/**"
+      - "notes/lexis/design/**"
       - ".github/workflows/ontology-conformance.yml"
 
 jobs:

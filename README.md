@@ -1,10 +1,10 @@
-# The Paperhat Workshop Semantic Authoring System
+# The Paperhat Lexis Semantic Authoring System
 
-Paperhat Workshop is a **semantic authoring and realization system**.
+Paperhat Lexis is a **semantic authoring and realization system**.
 
 It exists to let meaning, intent, and structure be authored independently of any particular presentation, runtime, or delivery target.
 
-Workshop is designed to support multiple targets, including (but not limited to):
+Lexis is designed to support multiple targets, including (but not limited to):
 
 * web applications
 * print and PDF
@@ -16,9 +16,9 @@ Workshop is designed to support multiple targets, including (but not limited to)
 
 ---
 
-## What Workshop Is Not
+## What Lexis Is Not
 
-Workshop is **not**:
+Lexis is **not**:
 
 * a web framework
 * a UI toolkit
@@ -35,13 +35,13 @@ Those concerns are intentionally external and out of scope.
 
 ## Status
 
-Paperhat Workshop is under active development.
+Paperhat Lexis is under active development.
 
 ---
 
 ## Licensing
 
-Paperhat Workshop is proprietary software developed by Paperhat, Limited.
+Paperhat Lexis is proprietary software developed by Paperhat, Limited.
 
 The underlying **Codex** and **Gloss** languages are independent, open-source specifications licensed under the Apache License 2.0:
 

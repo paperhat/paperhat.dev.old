@@ -1,4 +1,4 @@
-# A discussion about a cognitive engineering approach to the Workshop UIs
+# A discussion about a cognitive engineering approach to the Lexis UIs
 
 > I am building a rust/cargo codex processor/pipeline with a tauri interface. It will use the Monaco editor and will provide ways to visualise the AST, IR, and triples graph output. I want to discuss how I can apply cognitive engineering principles to it, and any similar approaches to human-centered and semantic design. Thoughts?
 
@@ -332,19 +332,19 @@ you’ve reduced cognitive footprint massively.
 
 We could:
 
-* Design a formal cognitive architecture for Workshop
+* Design a formal cognitive architecture for Lexis
 * Define “cognitive invariants” parallel to semantic invariants
 * Specify visualization rules deterministically like you do schemas
 
 That would be very on-brand for you.
 
-> I am interested in the formal cognitive architecture for Workshop.
+> I am interested in the formal cognitive architecture for Lexis.
 
-Here’s a workable **formal cognitive architecture** for Workshop that fits your existing ethos: **schema-governed, deterministic, closed-world, no vibes**.
+Here’s a workable **formal cognitive architecture** for Lexis that fits your existing ethos: **schema-governed, deterministic, closed-world, no vibes**.
 
 ## 1) Objective
 
-Define a **normative, testable cognitive layer** that governs how Workshop *presents* the canonical universe (Codex → AST → IR → RDF) to a human, with the explicit goal of minimizing **cognitive footprint** while preserving **traceability** and **semantic certainty**.
+Define a **normative, testable cognitive layer** that governs how Lexis *presents* the canonical universe (Codex → AST → IR → RDF) to a human, with the explicit goal of minimizing **cognitive footprint** while preserving **traceability** and **semantic certainty**.
 
 This is not “UX guidance.” It’s a **specifiable system**.
 
@@ -508,7 +508,7 @@ You can test cognition like you test semantics:
   * that invariants hold
 
 This means the cognitive architecture is **not subjective**.
-It becomes *part of Workshop’s determinism story*.
+It becomes *part of Lexis’s determinism story*.
 
 ## 8) Practical Next Step
 
@@ -532,7 +532,7 @@ You prevent collapse the same way you prevent semantic ambiguity in Codex:
 * Define invariants.
 * Make collapse impossible by specification.
 
-Below is a **formal anti-collapse strategy** tailored to Workshop.
+Below is a **formal anti-collapse strategy** tailored to Lexis.
 
 ---
 
@@ -817,7 +817,7 @@ Schema projection is safer than network projection.
 
 Raw RDF topology is rarely cognitively useful.
 
-Workshop is schema-first.
+Lexis is schema-first.
 
 So show:
 
